@@ -4,9 +4,10 @@ import "fmt"
 
 func main() {
 	var n int
-	fmt.Printf("请输入数组的长度：%d", n)
+	fmt.Print("请输入数组的长度：")
+	fmt.Scan(n)
 	var sl []int
-	fmt.Printf("请输入数组：")
+	fmt.Print("请输入数组：")
 	fmt.Scan(sl)
 	n = len(sl)
 	var sum int
